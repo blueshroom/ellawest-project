@@ -1,3 +1,20 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="gavo.t@hotmail.com";
+    $subject="Question for Ella";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?><!DOCTYPE html>
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="webstyle.css">
@@ -30,6 +47,16 @@
             </div>
         </div>
         <div class='colwrapper'>
+        <?=$thankYou ?>
+        <form method="post" action="contact.php">
+            <label>Name:</label>
+            <input name="sender">
+            <label>Email address:</label>
+            <input name="senderEmail">
+            <label>Message:</label>
+            <textarea rows="5" cols="20" name="message"></textarea>
+            <input type="submit" name="submit">
+        </form>
             <div class="question">
                 <h3>Evie</h3>
                 <p class="datestamp">September 18, 2015 at 7:57 am</p>
