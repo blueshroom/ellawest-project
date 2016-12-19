@@ -9,7 +9,7 @@
 }
 .navwrapper {
     margin:0 auto;
-    width: 742px;
+    width: 39.35%;
 }
 
 #cssmenu,
@@ -228,7 +228,7 @@ hr {
     font-family: 'Merriweather', serif;
     font-size: 12px; 
     line-height: 20px; 
-    text-align: left;
+    text-align: center;
 }
 .warning {
     color: white; 
@@ -372,12 +372,6 @@ body {
      height:40px;
 }
 
-#potriat {
-    width:120px;
-    height:180px;
-    float:left;
-    margin: 0 10px 10px 0;
-}
 #night{
     width:280px;
     height:470px;
@@ -420,9 +414,4 @@ body {
 #ellasofa {
     width: 660px;
 }
-#19june2015{
-    width: 80%;
-}
-#14july2014 {
-    width: 80%;
-}
+
