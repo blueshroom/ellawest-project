@@ -223,12 +223,19 @@ hr {
     font-size: 10px; 
     line-height: 20px;
 }
-.about {
+.bio{
     color: white; 
     font-family: 'Merriweather', serif;
     font-size: 12px; 
     line-height: 20px; 
     text-align: center;
+}
+.about {
+    color: white; 
+    font-family: 'Merriweather', serif;
+    font-size: 12px; 
+    line-height: 20px; 
+    text-align: left;
 }
 .warning {
     color: white; 
