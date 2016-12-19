@@ -31,8 +31,7 @@
   clear: both;
 }
 #cssmenu {
-  margin-left:30%;
-  margin-right:30.67%;
+  margin: 0 auto;
   zoom: 1;
 }
 #cssmenu > ul {
