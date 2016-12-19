@@ -4,12 +4,11 @@
 
 /* Menu CSS */
 .navcolour {
-    margin-top: 52%;
+    margin-top:52%;
     background-color: #262626; 
 }
 .navwrapper {
-    margin:0 auto;
-    width: 39.35%;
+    width: 100%;
 }
 
 #cssmenu,
@@ -32,7 +31,8 @@
   clear: both;
 }
 #cssmenu {
-  width: auto;
+  margin-left:30%;
+  width:39.37%;
   zoom: 1;
 }
 #cssmenu > ul {
