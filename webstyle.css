@@ -14,10 +14,10 @@
 #cssmenu,
 #cssmenu > ul {
   background: url(images/highlight-bg.png) repeat;
-  padding-bottom: 3px;
+  padding-bottom: 0.2%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
-  height: 66px;
+  height: 100%;
 }
 #cssmenu:before,
 #cssmenu:after,
@@ -40,7 +40,7 @@
   margin: 0;
   padding: 0;
   position: relative;
-  height: 64px;
+  height: 100%;
 }
 #cssmenu > ul li {
   margin: 0;
@@ -52,7 +52,7 @@
   position: relative;
 }
 #cssmenu > ul > li > a {
-  padding: 23px 26px;
+  padding: 30px 26px;
   display: block;
   color: white;
   font-size: 13px;
@@ -60,7 +60,7 @@
   text-transform: uppercase;
   text-shadow: 0 -1px 0 #0d0d0d;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
-  line-height: 18px;
+  line-height: 15%;
 }
 #cssmenu > ul > li:hover > a {
   background: url(images/highlight-bg.png) repeat;
@@ -68,7 +68,7 @@
   text-shadow: 0 -1px 0 rgba(122, 42, 26, 0.64);
 }
 #cssmenu > ul > li > a > span {
-  line-height: 18px;
+  line-height: 15%;
 }
 #cssmenu > ul > li.active > a,
 #cssmenu > ul > li > a:active {
@@ -91,7 +91,7 @@
   margin: 0;
   color: #000;
   z-index: 2;
-  top: 64px;
+  top: 100%;
   left: 0;
 }
 #cssmenu > ul ul:before {
@@ -99,7 +99,7 @@
   position: absolute;
   top: -10px;
   width: 100%;
-  height: 20px;
+  height: 20%;
   background: transparent;
 }
 #cssmenu > ul ul li {
@@ -109,7 +109,7 @@
   width: 100%;
 }
 #cssmenu > ul ul li a {
-  padding: 18px 26px;
+  padding: 8% 15%;
   display: block;
   color: white;
   font-size: 13px;
