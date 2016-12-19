@@ -366,7 +366,7 @@ input[type=submit]{
    
 }
 textarea {
-    width: 100%;
+    width: 90%;
     height: 150px;
     padding: 2% 2%;
     box-sizing: border-box;
