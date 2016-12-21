@@ -1,158 +1,50 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
 @import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300);
-
-/* Menu CSS */
-.navcolour {
-    margin-top: 52%;
-    background-color: #262626; 
-}
-.navwrapper {
-    margin:0 auto;
-    width: 39.4%;
-}
-
-#cssmenu,
-#cssmenu > ul {
-  background: url(images/highlight-bg.png) repeat;
-  padding-bottom: 3px;
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 600;
-  height: 66px;
-}
-#cssmenu:before,
-#cssmenu:after,
-#cssmenu > ul:before,
-#cssmenu > ul:after {
-  content: "";
-  display: table;
-}
-#cssmenu:after,
-#cssmenu > ul:after {
-  clear: both;
-}
-#cssmenu {
-  width: auto;
-  zoom: 1;
-}
-#cssmenu > ul {
-  background: url(images/menu-bg.png) repeat;
-  margin: 0;
-  padding: 0;
-  position: relative;
-  height: 64px;
-}
-#cssmenu > ul li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-#cssmenu > ul > li {
-  float: left;
-  position: relative;
-}
-#cssmenu > ul > li > a {
-  padding: 23px 26px;
-  display: block;
-  color: white;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: uppercase;
-  text-shadow: 0 -1px 0 #0d0d0d;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
-  line-height: 18px;
-}
-#cssmenu > ul > li:hover > a {
-  background: url(images/highlight-bg.png) repeat;
-  text-shadow: 0 -1px 0 #97321f;
-  text-shadow: 0 -1px 0 rgba(122, 42, 26, 0.64);
-}
-#cssmenu > ul > li > a > span {
-  line-height: 18px;
-}
-#cssmenu > ul > li.active > a,
-#cssmenu > ul > li > a:active {
-  background: url(images/hover.png) repeat;
-}
-/* Childs */
-#cssmenu > ul ul {
-  opacity: 0;
-  visibility: hidden;
-  position: absolute;
-  top: 120px;
-  background: url(images/menu-bg.png) repeat;
-  margin: 0;
-  padding: 0;
-  z-index: -1;
-}
-#cssmenu > ul li:hover ul {
-  opacity: 1;
-  visibility: visible;
-  margin: 0;
-  color: #000;
-  z-index: 2;
-  top: 64px;
-  left: 0;
-}
-#cssmenu > ul ul:before {
-  content: "";
-  position: absolute;
-  top: -10px;
-  width: 100%;
-  height: 20px;
-  background: transparent;
-}
-#cssmenu > ul ul li {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-#cssmenu > ul ul li a {
-  padding: 18px 26px;
-  display: block;
-  color: white;
-  font-size: 13px;
-  text-decoration: none;
-  text-transform: uppercase;
-  width: 150px;
-  border-left: 4px solid transparent;
-  -webkit-transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -ms-transition: all 0.35s ease-in-out;
-  transition: all 0.35s ease-in-out;
-}
-#cssmenu > ul ul li a:hover {
-  border-left: 4px solid #3399ff;
-  background: url(images/hover.png) repeat;
-}
-#cssmenu > ul ul li a:active {
-  background: url(images/menu-bg.png) repeat;
-}
+@import url('https://fonts.googleapis.com/css?family=Taviraj');
 
 
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: #f1f1f1;
+    font-family: 'Merriweather', serif;
+}
+li a {
+    padding: 4%;
+    display: block;
+    color: black;
+    text-decoration: none;
+}
+li a:hover {
+    padding: 4%;
+    background-color: #000000;
+    color: white;
+}
 
 a:link {
-    color: #3399ff;
+    color: black;
     font-family: 'Merriweather', serif;
     font-size: 14px; 
-    line-height: 20px;
+    text-decoration: none;
 }
 
 a:visited {
-    color: #3399ff;
+    color: black;
 }
 
 a:hover {
-    color: blueviolet;
+    color: green;
 }
 
 a:active {
-    color: red;
+    color: blue;
 }
 
 h1 {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 30px; 
     font-weight: 700;  
@@ -161,42 +53,49 @@ h1 {
     text-transform: uppercase;
 }
 .widetitle {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 30px; 
     font-weight: 700; 
-    width:679px;
-    padding: 10px;
-    margin-top: 20px; 
-    margin-left: 21px;
-    text-align: center; 
-    background-color: #262626;
+    width:100%;
+    padding: 1%;
+    text-align: left; 
 }
 .smallheading {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 26px; 
     font-weight: 700; 
 }
 .smallcentredheading {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 22px; 
     font-weight: 700;
     text-align: center;
 }
 h3 {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 24px;
 }
 h4 {
-    color: white; 
+    color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
     font-size: 16px; 
     font-weight: 700; 
     text-align: center;
+}
+.mainheader{
+    color: white;
+    font-family: 'Taviraj', serif;
+    font-size: 104px;
+    font-weight:600;
+    margin-left: 29.6%;
+    margin-top: 10%;
+    float: left;
+    text-shadow: 2px 2px 4px #000000;
 }
 hr {
     margin-bottom: 60px;
@@ -206,46 +105,51 @@ hr {
 }
 
 .post {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 14px; 
     line-height: 20px;
 }
 .fullsizetext {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 14px; 
     line-height: 25px; 
 }
 .datestamp{
-    color: #3399ff;
+    color: green;
     font-family: 'Merriweather', serif;
-    font-size: 10px; 
+    font-size: 11px; 
     line-height: 20px;
 }
+.biowrapper{
+    width:100%;
+    background-color: #f1f1f1;
+}
 .bio{
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 12px; 
     line-height: 20px; 
     text-align: center;
+    padding: 4%;
 }
 .about {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 12px; 
     line-height: 20px; 
     text-align: left;
 }
 .warning {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 12px; 
     line-height: 20px; 
     text-align: center;
 }
 .latest {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 14px; 
     line-height: 20px; 
@@ -253,7 +157,7 @@ hr {
     text-align: center;
 }
 .foot {
-    color: white; 
+    color: black; 
     font-family: 'Merriweather', serif;
     font-size: 14px; 
     line-height: 20px; 
@@ -261,94 +165,116 @@ hr {
 }
 
 body {
-    background-image: url('images/background.jpg');
-    background-position: center top;
+    background-image: url('images/backgroundhead.jpg');
+    background-position: center 25%;
     background-repeat: no-repeat;
-    background-color: #091722;
-    background-size: 100% auto;
+    background-color: white;
+    background-size: 42% auto;
+    
 }
 
 .fullsize {
     width: 662px;
-    padding: 20px;
     height: auto;
-    margin: 20px auto;
+    margin: 0px auto;
     background-color: #262626;
 }
 
 .question {
-    width: 522px;
-    padding: 20px 40px 20px 20px;
-    height: auto;
-    margin: 20px auto;
-    background-color: #262626;
+    width: 100%;
+    padding-bottom: 2%;
+    margin: 2% auto;
+    background-color: white;
 }
 
 .reply {
     width: auto;
-    padding: 20px 40px 20px 20px;
+    padding: 2%;
     height: auto;
-    margin-left: 50px;
-    background-color: #404040;
+    margin-left: 5%;
+    background-color: #f1f1f1;
 }
 
 .fanreply {
     width: auto;
-    padding: 20px 40px 20px 20px;
+    padding: 2%;
     height: auto;
-    margin-left: 50px;
-    background-color: #333333;
+    margin-left: 5%;
+    background-color: #e6e6e6;
 }
 
 .colwrapper {
-        width: 100%;
-        margin:0 auto; 
+        width: 100%;        
+        margin:0 auto;
+        position: absolute;
 }
 
 .colleft {
         float:left;
-	width:18%;
-        position: relative;
-        margin-top: 1%;
-        margin-left: 8%;
-        padding: 0.5%;
-        height: auto;
-        background-color: #262626;
+	width:15%;
+        margin-left:9.57%;
+        margin-top:1%;
+        margin-right:3%;
+}
+.colleftnav{
+        width:100%;
+        padding: 7%;
+        margin-bottom: 5%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.colleftfacebook {
+        width:100%;
+        padding: 7%;
+        margin-bottom: 5%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
 }
 .colmid {
-        float: right;
+        margin-top: 18%;
 	width:40%; 
         padding: 1%;
-        margin-top: 1%;
-        margin-right:1%;
-        background-color: #262626;
+        float:left;
+        margin-left: 1%;
+        margin-right: 1%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .colright {
-        margin-top: 1%;
-        float:right;
+        float:left;
 	width:15%;
-        margin-right: 11%;
         padding: 1%;
 }
 .colrightbio {
-        width:80%;
+        width:100%;
         padding: 7%;
         margin-bottom: 5%;
-        background-color: #262626;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .colrightbook {
-        width:80%;
+        width:100%;
         padding: 7%;
-        background-color: #262626;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.colbooks {
-        width:662px;
-        margin: auto;
-        padding: 20px;
+.book {
+        width:98%;
+        padding-bottom:2%;
+        padding-top:2%;
+        padding-right:2%;
+        font-family: 'Merriweather', serif;
+        font-size: 14px; 
+        line-height: 28px; 
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: black; 
+        margin: 2% auto;
 }
 input[type=text] {
     width: 95%;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 4px;
     padding: 2% 2%;
 }
@@ -357,7 +283,7 @@ input[type=submit]{
    border: 2px solid white;
    border-radius: 4px;
    padding: 2% 2%;
-   background-color: #404040;
+   background-color: black;
    color: white;
    text-decoration: none;
    margin: 4px 2px;
@@ -370,7 +296,7 @@ textarea {
     height: 150px;
     padding: 2% 2%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: 2px solid black;
     border-radius: 4px;
     background-color: #f8f8f8;
     resize: none;
@@ -380,20 +306,6 @@ textarea {
     width: auto;
     padding: 20px;
     background-color: #262626;
-}
-.night,
-.thieves,
-.anywhere,
-.real {
-        width:660px;
-        padding:20px;
-        margin:20px;
-        color: #111; 
-        font-family: 'Merriweather', serif;
-        font-size: 14px; 
-        line-height: 28px; 
-        background-color: #262626;
-        color: white; 
 }
 .submit {
     background-color: #262626;
@@ -409,40 +321,27 @@ textarea {
 }
 
 #night{
-    width:280px;
-    height:470px;
-    margin-top: 30px;
-    margin-right: 10px;
+    width:35%;
+    padding:1.5%;
     float:left;
-    padding-bottom: 10px;
-}
-#anywhere {
-    width:280px;
-    height: 450px;
-    margin-top: 30px;
-    margin-right: 10px;
-    float:left;
-    padding-bottom: 10px;
-}
-#real {
-    width:280px;
-    height: 470px;
-    margin-top: 30px;
-    margin-right: 10px;
-    float:left;
-    padding-bottom: 10px;
 }
 #thieves{
-    width:290px;
-    height:440px;
-    margin-top: 30px;
-    margin-right: 10px;
+    width:35%;
+    padding:1.5%;
     float:left;
-    padding-bottom: 10px;
+}
+#anywhere {
+    width:35%;
+    padding:1.5%;
+    float:left;
+}
+#real {
+    width:35%;
+    padding:1.5%;
+    float:left;
 }
 #smallnight {
-    width: 220px;
-    height:330px;
+    width: 80%;
 }
 #elladesk {
     width: 660px;
@@ -450,4 +349,8 @@ textarea {
 #ellasofa {
     width: 660px;
 }
-
+#citoflit{
+    width:20%; 
+    float:right;
+    margin-right:11%;
+}
