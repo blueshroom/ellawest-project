@@ -165,11 +165,7 @@ hr {
 }
 
 body {
-    background-image: url('images/backgroundhead.jpg');
-    background-position: center 25%;
-    background-repeat: no-repeat;
     background-color: white;
-    background-size: 42% auto;
     
 }
 
@@ -232,7 +228,7 @@ body {
     
 }
 .colmid {
-        margin-top: 18%;
+        margin-top: 1%;
 	width:40%; 
         padding: 1%;
         float:left;
@@ -353,4 +349,8 @@ textarea {
     width:20%; 
     float:right;
     margin-right:11%;
+}
+
+#ellawesthead{
+    width: 100%;
 }
