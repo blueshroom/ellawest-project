@@ -227,6 +227,13 @@ body {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
 }
+.citoflit {
+        width:100%;
+        padding: 7%;
+        margin-bottom: 14%;
+        background-color: white;
+}
+
 .colmid {
         margin-top: 1%;
 	width:40%; 
@@ -340,15 +347,13 @@ textarea {
     width: 80%;
 }
 #elladesk {
-    width: 660px;
+    width: 100%;
 }
 #ellasofa {
-    width: 660px;
+    width: 100%;
 }
 #citoflit{
-    width:20%; 
-    float:right;
-    margin-right:11%;
+    width:100%; 
 }
 
 #ellawesthead{
