@@ -352,6 +352,10 @@ textarea {
     padding:1.5%;
     float:left;
 }
+#rainfall{
+    width:60%;
+}
+
 #smallnight {
     width: 80%;
 }
