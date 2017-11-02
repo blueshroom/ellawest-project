@@ -314,11 +314,13 @@ textarea {
     resize: none;
 }
 .footer {
-    algin: right;
-    width: auto;
-    padding: 20px;
-    background-color: #262626;
-}
+    width: 99%;
+    bottom: 0;
+    position: fixed;
+    display: block;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 .submit {
     background-color: #262626;
 }
