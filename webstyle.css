@@ -378,3 +378,13 @@ textarea {
     border: 1px solid;
     
 }
+#gtfooter{
+    margin-top: 5px;
+    float: left;
+    width: 200px;
+}
+#ellafooter{
+    margin-top: 5px;
+    float: right;
+    width: 250px;
+}
