@@ -1,8 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
     Created on : 14/11/2016, 2:40:42 PM
     Author     : Gavin
@@ -236,7 +231,7 @@ body {
 .colleftfacebook {
         width:100%;
         padding: 7%;
-        margin-bottom: 14%;
+        margin-bottom: 10%;
         background-color: white;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
@@ -244,7 +239,6 @@ body {
 .citoflit {
         width:100%;
         padding: 7%;
-        margin-bottom: 14%;
         background-color: white;
 }
 
@@ -378,6 +372,9 @@ textarea {
     width: 100%;
 }
 #speakersink{
+    width:100%; 
+}
+#bookcouncil{
     width:100%; 
 }
 #citoflit{
