@@ -113,6 +113,40 @@ hr {
     margin-left: 10px;
 }
 
+.pagenumbercentertop {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pagenumbercenterbot {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.pagination {
+  display: inline-block;
+  
+}
+
+.pagination a {
+  font-family: 'Merriweather', serif;
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  font-family: 'Merriweather', serif;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
 .post {
     color: black; 
     font-family: 'Merriweather', serif;
