@@ -47,6 +47,10 @@ a:active {
     color: blue;
 }
 
+.navlist:link {
+    color: blue;	
+}
+
 h1 {
     color: black; 
     font-family: 'PT Sans Narrow', sans-serif;
