@@ -29,18 +29,18 @@ li a:hover {
 }
 
 a:link {
-    color: blue;
+    color: black;
     font-family: 'Merriweather', serif;
     font-size: 14px; 
     text-decoration: none;
 }
 
 a:visited {
-    color: pink;
+    color: black;
 }
 
 a:hover {
-    color: red;
+    color: blue;
 }
 
 a:active {
